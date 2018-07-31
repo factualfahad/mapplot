@@ -1,5 +1,5 @@
 Description: mapplot pulls a rasterized image of a map and plots points on it. Since the image is rasterized, mapplot can plot much more points than mplleaflet without choking the memory.
-
+Check out the example: example_ Capital One Café.ipynb
 This is how it is used:
 import mapplot;
 mapplot.mapPoints(lats,lngs,args_center=[42.373404, -71.118798]);
