@@ -1,0 +1,9 @@
+Description: mapplot pulls a rasterized image of a map and plots points on it. Since the image is rasterized, mapplot can plot much more points than mplleaflet.
+
+This is how it is used:
+import mapplot;
+mapplot.mapPoints(lats,lngs,args_center=[42.373404, -71.118798]);
+
+#lats: a list of all the latitudes of the points
+#lngs: a list of all the latitudes of the points
+#args_center: the center for the map
