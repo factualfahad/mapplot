@@ -1,4 +1,4 @@
-Description: mapplot pulls a rasterized image of a map and plots points on it. Since the image is rasterized, mapplot can plot much more points than mplleaflet.
+Description: mapplot pulls a rasterized image of a map and plots points on it. Since the image is rasterized, mapplot can plot much more points than mplleaflet without choking the memory.
 
 This is how it is used:
 import mapplot;
